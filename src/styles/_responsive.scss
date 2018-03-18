@@ -1,0 +1,73 @@
+//1200
+@media screen and (min-width: $viewport-wide#{$global-unit}){
+
+}
+
+//1024
+@media screen and (max-width: $viewport-desktop#{$global-unit}){
+	.d_none--md{
+		display: none;
+	}
+
+	.d_block--md{
+		display: block;
+	}
+
+	.d-i_block--md{
+		display: inline-block;
+	}
+
+	.f_left--md{
+		float: left;
+	}
+
+	.f_right--md{
+		float: right;
+	}
+}
+
+//800
+@media screen and (max-width: $viewport-tablet#{$global-unit}){
+	.d_none--sm{
+		display: none;
+	}
+
+	.d_block--sm{
+		display: block;
+	}
+
+	.d-i_block--sm{
+		display: inline-block;
+	}
+
+	.f_left--sm{
+		float: left;
+	}
+
+	.f_right--sm{
+		float: right;
+	}
+}
+
+//400
+@media screen and (max-width: $viewport-mobile#{$global-unit}){
+	.d_none--xs{
+		display: none;
+	}
+
+	.d_block--xs{
+		display: block;
+	}
+
+	.d-i_block--xs{
+		display: inline-block;
+	}
+
+	.f_left--xs{
+		float: left;
+	}
+
+	.f-right-xs{
+		float: right;
+	}
+}

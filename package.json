@@ -1,0 +1,32 @@
+{
+  "name": "hclass",
+  "version": "1.0.0",
+  "description": "Helper class for sass",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "*",
+		"gulp-sass": "*",
+    "browser-sync": "*",
+    "gulp-autoprefixer": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-yabiku/hclass.git"
+  },
+  "keywords": [
+    "style",
+    "class",
+    "css",
+    "helpers"
+  ],
+  "author": "sebastian yabiku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastian-yabiku/hclass/issues"
+  },
+  "homepage": "https://github.com/sebastian-yabiku/hclass#readme"
+}

@@ -1,0 +1,29 @@
+.l_inline {
+
+	li {
+		display: inline-block;
+		margin : 0 6px 0 0;
+
+		&:last-child {
+			margin: 0;
+		}
+	}
+}
+
+.l_none {
+	padding: 0;
+	margin : 0;
+
+	li {
+		list-style : none;
+	}
+}
+
+.l_middle {
+
+	li {
+		vertical-align: middle;
+	}
+}
+
+

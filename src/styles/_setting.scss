@@ -1,0 +1,39 @@
+/**
+ * @description: Configuration Object
+ */
+$settings: (
+	global: (
+		unit : "px"
+	),
+  viewports:(
+  	mobil: 425,    //xs
+  	tablet: 799,   //sm
+  	desktop: 1199, //md
+    wide: 1200     //lg
+  )
+);
+
+/**
+ * @description: get Data Object
+ */
+@function map-sub-map($map, $keys, $subkey){
+  $submap:map-get(map-get($map, $keys), $subkey);
+  @return $submap;
+}
+
+
+/**
+ * @description: Definition of variables
+ */
+/* Global units
+---------------------------------------------------------------*/
+$global-unit: map-sub-map($settings, 'global', 'unit');
+
+/* Viewports
+---------------------------------------------------------------*/
+$viewport-mobile: map-sub-map($settings, 'viewports', 'mobil');
+$viewport-tablet: map-sub-map($settings, 'viewports', 'tablet');
+$viewport-desktop: map-sub-map($settings, 'viewports', 'desktop');
+$viewport-wide: map-sub-map($settings, 'viewports', 'wide');
+
+

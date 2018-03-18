@@ -1,0 +1,164 @@
+/**
+ * Hoja de estilo incluye todos los estilos
+ * @project : hClass
+ * @author: sebastian yabiku
+ * @description: Style sheet for hClass
+ * @file: hclass-main.scss
+ */
+/**
+ * @description: Configuration Object
+ */
+/**
+ * @description: get Data Object
+ */
+/**
+ * @description: Definition of variables
+ */
+/* Global units
+---------------------------------------------------------------*/
+/* Viewports
+---------------------------------------------------------------*/
+.l_inline li {
+  display: inline-block;
+  margin: 0 6px 0 0; }
+  .l_inline li:last-child {
+    margin: 0; }
+
+.l_none {
+  padding: 0;
+  margin: 0; }
+  .l_none li {
+    list-style: none; }
+
+.l_middle li {
+  vertical-align: middle; }
+
+.t-a_left {
+  text-align: left; }
+
+.t-a_right {
+  text-align: right; }
+
+.t-a_center {
+  text-align: center; }
+
+.t-a_justify {
+  text-align: justify; }
+
+.v-a_top {
+  vertical-align: top; }
+
+.v-a_bottom {
+  vertical-align: bottom; }
+
+.v-a_middle {
+  vertical-align: middle; }
+
+.d_table {
+  display: table; }
+
+.d_t-row {
+  display: table-row; }
+
+.d_t-cell {
+  display: table-cell; }
+
+.d_none {
+  display: none; }
+
+.d_hidden {
+  display: hidden; }
+
+.d_i-block {
+  display: inline-block; }
+
+.c_both:before, .c_both:after {
+  content: " ";
+  display: table; }
+
+.c_both:after {
+  clear: both; }
+
+.f_left {
+  float: left; }
+
+.f_right {
+  float: right; }
+
+.f_none {
+  float: none; }
+
+.p_absolute {
+  position: absolute; }
+
+.p_relative {
+  position: relative; }
+
+.p_static {
+  position: static; }
+
+.z-index_1 {
+  z-index: 1; }
+
+.z-index_2 {
+  z-index: 2; }
+
+.z-index_3 {
+  z-index: 3; }
+
+.z-index_4 {
+  z-index: 4; }
+
+.d_table {
+  display: table; }
+
+.d_t-row {
+  display: table-row; }
+
+.d_t-cell {
+  display: table-cell; }
+
+.d_none {
+  display: none; }
+
+.d_hidden {
+  display: hidden; }
+
+.d_i-block {
+  display: inline-block; }
+
+@media screen and (max-width: 1199px) {
+  .d_none--md {
+    display: none; }
+  .d_block--md {
+    display: block; }
+  .d-i_block--md {
+    display: inline-block; }
+  .f_left--md {
+    float: left; }
+  .f_right--md {
+    float: right; } }
+
+@media screen and (max-width: 799px) {
+  .d_none--sm {
+    display: none; }
+  .d_block--sm {
+    display: block; }
+  .d-i_block--sm {
+    display: inline-block; }
+  .f_left--sm {
+    float: left; }
+  .f_right--sm {
+    float: right; } }
+
+@media screen and (max-width: 425px) {
+  .d_none--xs {
+    display: none; }
+  .d_block--xs {
+    display: block; }
+  .d-i_block--xs {
+    display: inline-block; }
+  .f_left--xs {
+    float: left; }
+  .f-right-xs {
+    float: right; } }
